@@ -9,8 +9,7 @@ fruits = ["apple", "banana", "cherry", "date"]
 # print(fruits[2])
 for fruit in fruits:
     print(fruit)
-
-;;ll;;l;;
+# i just worked with loops
 # Given a list of school subjects:
 subjects = ["Math", "Science", "History", "Art"]
 for subject in subjects:
