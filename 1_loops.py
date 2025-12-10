@@ -41,6 +41,26 @@ for number in list1000:
     print(number)
 
 
+applicants_for_cred= ["alice","bob","charlie","david","eve"]
+credit_score= [720,680,590,610,750]
+# zip the who list together and print
+# each applicants's name along with thier code score
+# if the score is below 600,skip over that applicant 
+# and approve the rest for credit
+
+
+# Zip the lists together and print approved applicants
+for applicants ,score in zip(applicants_for_cred, credit_score):
+    if score < 600:
+        continue
+    print(applicants + "approved for credit with scorre: " + str(score))
+
+    
+
+
+
+
+
 
 
 
