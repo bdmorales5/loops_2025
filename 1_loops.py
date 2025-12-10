@@ -58,6 +58,11 @@ for applicants ,score in zip(applicants_for_cred, credit_score):
     
 
 
+subject= ["math","science","history","art"]
+for index in range(len(subject)):
+    print ("subject" + str(index) + ": " + subject[index])
+
+
 
 
 
